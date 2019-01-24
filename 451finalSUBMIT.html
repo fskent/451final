@@ -1,0 +1,78 @@
+<html>
+<head>
+       <title>CIS 451 Final Project</title>
+       <link rel="stylesheet" type="text/css" href="451finalSTYLE.css">
+</head>
+<h1>Grocery Ranker</h1>
+<body bgcolor="white">
+<ul>
+  <li><a href="451finalHOME.html">Home</a></li>
+  <li><a href="451finalSUBMIT.html">Submit Review</a></li>
+  <li><a href="451finalLOOKUP.html">Look Up Reviews</a></li>
+  <li><a href="451finalSTATS.html">Review Statistics</a></li>
+  <li><a href="451finalSOURCE.html">Source</a></li>
+</ul>
+
+<hr>
+<form action="451finalSUBMIT.php" method="POST">
+
+<h3>Customer Information:</h3>
+<p>
+First Name:<br>
+<input type="text" name="fname"> <br>
+<p>
+Last Name:<br>
+<input type="text" name="lname"> <br>
+<p>
+Age:<br>
+<input type="text" name="age"> <br>
+<p>
+<hr>
+<p>
+<h3>Store Information:</h3>
+<p>
+Store Name:<br>
+<input type="text" name="storename"> <br>
+<p>
+Store Location (optional):<br>
+<input type="text" name="storeloc"> <br>
+<p>
+<hr>
+<p>
+<h3>Create Review:</h3>
+<p>
+Item's Brand:<br>
+<input type="text" name="brand"> <br>
+<p>
+Item's Name:<br>
+<input type="text" name="item_name"> <br>
+<p>
+Written Review:
+<p>
+<textarea class="box" rows="3" cols="60" placeholder="Enter Text Here" name="written"> </textarea> <br>
+<p>
+Rating (Out of 10):
+<select class="scale" name="scale">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+</select>
+<p>
+<input type="submit" value="submit">
+<br>
+<input type="reset" value="erase">
+
+</form>
+
+<hr>
+
+
+</body>
+</html>

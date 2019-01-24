@@ -1,0 +1,42 @@
+<html>
+<head>
+       <title>CIS 451 Final Project</title>
+       <link rel="stylesheet" type="text/css" href="451finalSTYLE.css">
+</head>
+<h1>Grocery Ranker</h1>
+
+<body bgcolor="white">
+<ul>
+  <li><a href="451finalHOME.html">Home</a></li>
+  <li><a href="451finalSUBMIT.html">Submit Review</a></li>
+  <li><a href="451finalLOOKUP.html">Look Up Reviews</a></li>
+  <li><a href="451finalSTATS.html">Review Statistics</a></li>
+  <li><a href="451finalSOURCE.html">Source</a></li>
+</ul>
+
+<hr>
+<form action="451finalSTATS.php" method="POST">
+  <h3>Get Top Products by Store Name:</h3>
+  <input type="text" name="top_store">
+  <br>
+<hr>
+  <h3>Get Top Products by Brand Name:</h3>
+  <input type="text" name="top_brands">
+  <br>
+<hr>
+  <h3>Get Top Products by Item Name:</h3>
+  <input type="text" name="top_items">
+  <br>
+  <input type="submit" value="submit"><br>
+  <input type="reset" value="erase">
+</form>
+
+<hr>
+
+
+</body>
+</html>
+
+
+</body>
+</html>
